@@ -35,7 +35,7 @@ ul li a{
 ul li> a:hover{
     color: yellow;
     cursor: pointer;
-    border-bottom: 2px solid yellow;
+    
 }
 
 ul li ul li{
