@@ -25,4 +25,6 @@ nav ul{
 
 ul li a{
     display: block;
+    color:white;
+    text-decoration: none;
 }
