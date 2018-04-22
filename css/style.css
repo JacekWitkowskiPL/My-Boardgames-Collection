@@ -14,17 +14,15 @@ nav ul{
     
 }
 
- ul li{
+ ul li.navbar{
     float: left;
-    width: 415px;
     height: 70px;
     background-color: black;  
     opacity:0.8;
     line-height: 70px;
     text-align: center;
     font-size: 20px;
-    margin-right: 2px;
-    
+    width: 25%;   
 }
 
 
@@ -33,6 +31,9 @@ ul li a, div{
     display: block;
     color:yellow;
     text-decoration: none;
+    background-color: black
+    
+    
 }
 
 ul li ul li{
@@ -57,7 +58,12 @@ ul li ul li:hover{
 }
 
 
-
+section img{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    
+}
 
 section h1{
     font-size: 40px;
