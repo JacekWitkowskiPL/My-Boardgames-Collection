@@ -38,6 +38,8 @@ ul li a{
 
 ul li a:hover{
     background-color: darkred;
+    color: yellow;
+    cursor: pointer;
 }
 
 ul li ul li{
