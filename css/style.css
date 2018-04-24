@@ -51,6 +51,28 @@ ul li:hover ul li{
     cursor: pointer;
 }
 
+section.main{
+    width: 850px;
+    margin: 0 auto;
+    
+}
+
+section img{
+    width: 200px;
+    height: 250px;
+    margin: 50px 325px;
+    border-radius: 50%;
+}
+
+section.main h1{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+
+
 .photo {
     
     width: 200px;
