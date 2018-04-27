@@ -20,7 +20,7 @@ ul{
 
 ul li {
     float: left;
-    width: 420px;
+    width: 336px;
     background-color: 
     black;
     height: 60px;
@@ -34,6 +34,11 @@ ul li a{
     text-decoration: none;
     display: block;
     color: white;
+}
+
+ul li a.active {
+    background-color: darkred;
+    color: yellow;
 }
 
 ul li a:hover{
@@ -54,6 +59,7 @@ ul li:hover ul li{
 section.main{
     width: 850px;
     margin: 0 auto;
+    padding-top: 200px;
     
 }
 
@@ -64,11 +70,19 @@ section img{
     border-radius: 50%;
 }
 
-section.main h1{
+.main h1{
     text-align: center;
     color: black;
     font-size: 2rem;
-    margin-top: 0px;
+    margin-top: 0px; 
+}
+
+.main hr{
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
+    margin: 0 50px 0 50px;
+    
 }
 
 
