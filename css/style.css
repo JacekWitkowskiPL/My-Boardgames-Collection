@@ -24,7 +24,6 @@ ul li {
     background-color: 
     black;
     height: 60px;
-    opacity: .8;
     line-height: 60px;
     text-align: center;
     font-size: 25px;
@@ -54,55 +53,16 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
     cursor: pointer;
-}
-
-section.main{
-    width: 850px;
-    margin: 0 auto;
-    padding-top: 200px;
-    
-}
-
-section img{
-    width: 200px;
-    height: 250px;
-    margin: 50px 325px;
-    border-radius: 50%;
-}
-
-.main h1{
-    text-align: center;
-    color: black;
-    font-size: 2rem;
-    margin-top: 0px; 
-}
-
-.main hr{
-    border-width: 2px;
-    border-style: outset;
-    border-color: black;
-    margin: 0 50px 0 50px;
-    
-}
-
-
-
-.photo {
-    
-    width: 200px;
-    height: 200px;
-    opacity: .7;
-    float: left;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     position: relative;
 }
 
-.photo img{
-    width: 100%;
-    height: 100%;
+ .section-homepage{
+    padding-top: 250px;
 }
 
-figaption {
+.section-homepage h1{
     color: black;
+    text-align: center;
+    font-size: 2rem;
 }
+
